@@ -10,7 +10,7 @@ namespace TwitchIRC
 		std::string channelID;
 		std::string message;
 	public:
-		static Message Message::ConstructMessage(IRCEvent _event);
+		static Message ConstructMessage(IRCEvent _event);
 
 		Message();
 		Message(const User &_user, std::string _channelID, std::string _message);

@@ -38,7 +38,7 @@ namespace TwitchIRC
         void Connect(const char *_targetChannelID);
         void Disconnect();
 
-        void TwitchIRC::SendMessage(const char *_message, const char *_channelID);
+        void SendMessage(const char *_message, const char *_channelID);
 
         void SetClientIRCConnectionCallback(ClientIRCConnectionCallback _callback);
         void SetClientIRCErrorCallback(ClientIRCRecvErrorCallback _callback);

@@ -10,7 +10,7 @@ namespace TwitchIRC
 		std::string eventName;
 		std::string data;
 	public:
-		static IRCEvent IRCEvent::ConstructEvent(const char *_rawMessage);
+		static IRCEvent ConstructEvent(const char *_rawMessage);
 
 		IRCEvent(User _sender, std::string _eventName, std::string _data = "");
 
